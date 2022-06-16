@@ -18,3 +18,11 @@ a:hover {
 body.target{
     background-color: rgb(252, 241, 206);/*252,241,206*/
 }
+h2.target {
+    border-style: none none double none;
+}
+h1.target {
+    border-style: none;
+    padding: 20px 20px 20px 20px;
+    background: rgb(36, 94, 255);
+}
