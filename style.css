@@ -1,0 +1,20 @@
+h2 {
+    color: rgb(0, 0, 170);
+}
+a:link {
+    color: rgb(56, 56, 243);
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    text-decoration: none;
+}
+/*ul.target {
+    border: 5px solid rgb(0, 0, 255);
+    padding: 20px 20px 20px 20px;
+    background: rgb(181, 212, 230);
+}*/
+body.target{
+    background-color: rgb(252, 241, 206);/*252,241,206*/
+}
