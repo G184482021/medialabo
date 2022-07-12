@@ -26,3 +26,6 @@ h1.target {
     padding: 20px 20px 20px 20px;
     background: rgb(36, 94, 255);
 }
+li{
+    list-style-type: none;
+}
