@@ -16,16 +16,28 @@ a:hover {
     background: rgb(181, 212, 230);
 }*/
 body.target{
-    background-color: rgb(252, 241, 206);/*252,241,206*/
+    background-color: white;/*252,241,206*/
 }
 h2.target {
     border-style: none none double none;
 }
-h1.target {
+/*h1.target {
     border-style: none;
-    padding: 20px 20px 20px 20px;
+    padding: 50px 50px 50px 50px;
     background: rgb(36, 94, 255);
-}
+}*/
 li{
     list-style-type: none;
 }
+header, footer {
+    background-color: teal;
+    height: 10em;
+    padding: 2em;
+  }
+  h1, footer p {
+    margin: 0px;
+  }
+  h1 {
+    text-align: center;
+    padding: 0.5em 0;
+  }

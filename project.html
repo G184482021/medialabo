@@ -3,10 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>天気</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+	  <script src="ajax-demo.js" defer></script>
     <script src="weather.js" defer></script>
+    
   </head>
 
   <body>
-      <h1>天気予報</h1>
+        <h1>天気予報</h1>
+        <label for="town-select"></label>
+        <select name="town" id="town-select">
+          <option value="">選択</option>
+          <option value="360630">カイロ(エジプト)</option>
+          <option value="524901">モスクワ(ロシア)</option>
+          <option value="993800">ヨハネスブルク(南アフリカ)</option>
+          <option value="1816670">北京(中華人民共和国)</option>
+          <option value="1850147">東京(日本)</option>
+          <option value="1880252">シンガポール</option>
+          <option value="2147714">シドニー(オーストラリア)</option>
+          <option value="2643743">ロンドン(イギリス)</option>
+          <option value="2968815">パリ(フランス)</option>
+          <option value="3451189">リオデジャネイロ(ブラジル)</option>
+          <option value="5128581">ニューヨーク(アメリカ合衆国)</option>
+          <option value="5368361">ロサンゼルス(アメリカ合衆国)</option>
+        </select>
+        <button id = "sendRequest">検索</button>
+        <p><span id = "name"></span></p>
+        <p><span id = "weather_description"></span></p>
+        <p><span id = "temp_max"></span></p>
+        <p><span id = "temp_min"></span></p>
+        <p><span id = "humidity"></span></p>
+        <p><span id = "wind_speed"></span></p>
+        <p><span id = "wind_deg"></span></p>
+        <p><span id = "coord_lon"></span></p>
+        <p><span id = "coord_lat"></span></p>
   </body>
 </html>
