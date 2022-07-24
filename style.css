@@ -1,6 +1,47 @@
+header {
+    background-color: teal;
+    padding: 2em;
+}
 h2 {
     color: rgb(0, 0, 170);
 }
+body.target{
+    background-color: white;
+}
+h2.target {
+    border-style: none none double none;
+}
+li{
+    list-style-type: none;
+}
+h1 {
+    text-align: center;
+}
+div.box1 {
+    position: relative;
+    margin: 2em 1em;
+    padding: 0.5em 1em 2em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box1 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
 a:link {
     color: rgb(56, 56, 243);
 }
@@ -10,34 +51,56 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
-/*ul.target {
-    border: 5px solid rgb(0, 0, 255);
-    padding: 20px 20px 20px 20px;
-    background: rgb(181, 212, 230);
-}*/
-body.target{
-    background-color: white;/*252,241,206*/
+
+
+
+div.zentai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-h2.target {
-    border-style: none none double none;
+
+
+.box {
+    flex: 1;
+    width: 2500px;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
-/*h1.target {
-    border-style: none;
-    padding: 50px 50px 50px 50px;
-    background: rgb(36, 94, 255);
-}*/
-li{
-    list-style-type: none;
-}
-header, footer {
-    background-color: teal;
-    height: 10em;
-    padding: 2em;
-  }
-  h1, footer p {
-    margin: 0px;
-  }
-  h1 {
+.box .box-title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 4px;
     text-align: center;
-    padding: 0.5em 0;
-  }
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+
+
+/*flex-basis: auto;*/
+
+/*
+<div class="box2">
+                    <div class="box-title">工夫点</div>
+                </div>
+                <div class="box2">
+                    <div class="box-title">苦心点</div>
+                </div>
+                <div class="box2">
+                    <div class="box-title">協調点</div> 
+                </div>
+                <div class="box2">
+                    <div class="box-title">感想</div>
+                </div>
+
+
+
+                <p>kakkakdjkhfhfhksfjhsfjhfjhsjkfhjsfhskfjshfsfhshfhskjfhkf</p>
+*/

@@ -57,6 +57,16 @@ function sendRequest() {
   let id = document.getElementById("town-select").value;
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + id +'.json';
   
+  body{
+    if(id === 1850147){
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image:url
+      }
+  }
+
+
 	axios.get(url)
 		.then(showResult)
 		.catch(showError)
@@ -83,6 +93,15 @@ function showResult(resp) {
   pwd.textContent = '風向：' + data.wind.deg;
   pclo.textContent = '緯度：' + data.coord.lon;
   pcla.textContent = '経度：' + data.coord.lat;
+
+
+  if(id === 1850147){
+    let img = document.getElementById("https://freesozai.jp/sozai/nation_flag/ntf_131.svg");
+    img.src = "image1.jpg";
+  }
+
+
+
 
 	if (typeof data === 'string') {
 		data = JSON.parse(data);

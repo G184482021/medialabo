@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="target">
-        <h1 class="target">「Webコンテンツ作成」の成果</h1>
+        <header>
+            <h1 class="target">「Webコンテンツ作成」の成果</h1>
+        </header>
         <h2 class="target"> 本テーマの学習目的</h2>
             <ul class="target">
                 <li>HTML によって Web ページの構造を記述する基本的な方法がわかる</li>
@@ -19,7 +21,10 @@
             <p>プロジェクト課題で作成したページ: <a href = "projects.html" target = _blank>project.html</a></p>
         <h2 class="target">毎回の講義で作成したページ</h2>
         <ul>
-            <h3>第１回 HTML による Web ページの構造の記述</h3>
+        <div class="box1">
+            <span class="box-title">
+                第１回 HTML による Web ページの構造の記述
+            </span>
             <ul>
                 <li><h4>練習1-4: リスト</h4></li>
                     <p>テキストだけで記述されていたレシピの HTML を編集しました。見出しやリストなどの要素により文書の構造を記述しました。ここで使用したのは p要素、h1要素、ul要素、ol などです。</p>
@@ -31,24 +36,23 @@
                     <p>practice/debug-example.html を修正しました。また、HTML バリデーターなどを使用して、HTML が整形式になったことを確認しました。</p>
                     <p>修正したファイル: <a href = "practice/debug-example.html" target = _blank>practice/debug-example.html</a></p>
                 <li><h4>課題1-3 index.html の作成</h4></li>
-                    <p>index.html はこのページの HTML ファイルです。この課題は index.html のテンプレートを作成しました。 </p>       
-                <li><h4>課題1-4 </h4></li>
-                    <p>三種類のデータのうち、どのデータの Web アプリケーションを作るか決定しました。</p>
+                    <p>index.html はこのページの HTML ファイルです。この課題は index.html のテンプレートを作成しました。 </p>
             </ul>
-        
-            <h3>第２回 CSS による Web ページの装飾</h3>
+        </div>
+        <div class="box1">
+            <span class="box-title">
+                第２回 CSS による Web ページの装飾
+            </span>
             <ul>
                 <li><h4>練習問題2-3</h4></li>
                     <p>index.htmlが読み込む CSS のファイル style.css を修正しました。</p>
                     <p>修正したファイル: <a href = "practice-css/index.html" target = _blank>pactice-css/index.html</a></p>
-                <li><h4>課題2-1</h4></li>
-                    <p>第1回の課題1-3で作った medialabo/index.html の CSS を作成しました。</p>
-                <li><h4>課題2-2</h4></li>
-                    <p>第1回の課題1-5で作った project.html の CSS を作成しました。</p>
-                <li><h4>課題2-3</h4></li>
-                    <p>medialabo/index.html を編集しました。</p>
             </ul>
-            <h3>第３回 JavaScript の基本</h3>
+        </div>
+        <div class="box1">
+            <span class="box-title">
+                第３回 JavaScript の基本
+            </span>
             <ul>
                 <li><h4>練習問題3-5</h4></li>
                     <p>練習3-4においてコンソールで実行したプログラムを practice-js/hello.js に書き足しました。</p>
@@ -59,12 +63,12 @@
                 <li><h4>課題3-1</h4></li>
                     <p>数当ての HTML kazuate.html と JavaScript kazuate.js を完成させました。</p>
                     <p>修正したファイル: <a href = "kazuate.html" target = _blank>kazuate.html</a></p>
-                <li><h4>課題3-2</h4></li>
-                    <p>JavaScript プログラムのテンプレートからデータを取り出して、コンソールに出力しました。</p>
-                <li><h4>課題3-3</h4></li>
-                    <p>index.html を編集しました。</p>
             </ul>
-            <h3>第４回 フォームとイベント処理</h3>
+        </div>
+        <div class="box1">
+            <span class="box-title">
+                第４回 フォームとイベント処理
+            </span>
             <ul>
                 <li><h4>練習問題4-6</h4></li>
                     <p>practice-dom/dom-demo.js を、HTML ファイル practice-dom/dom-demo.htmlに組み込みました。</p>
@@ -82,12 +86,12 @@
                 <li><h4>課題4-1</h4></li>
                     <p>数当てゲームのページを改良しました。</p>
                     <p>修正したファイル: <a href = "kazuate.html" target = _blank>kazuate.html</a></p>
-                <li><h4>課題4-2</h4></li>
-                    <p>課題3-2で作った JavaScript プログラムを改良して，ページ上にデータを表示しました。</p>
-                <li><h4>課題4-3</h4></li>
-                    <p>index.html を編集しました。</p>
             </ul>
-            <h3>第５回 Webページの動的な編集</h3>
+        </div>
+        <div class="box1">
+            <span class="box-title">
+                第５回 Webページの動的な編集
+            </span>
             <ul>
                 <li><h4>練習問題5-2</h4></li>
                     <p>イベントハンドラの登録を確認しました。</p>
@@ -98,15 +102,33 @@
                 <li><h4>課題5-1</h4></li>
                     <p>数当てゲームのページにに入力欄を設置してゲームを完成させました。</p>
                     <p>修正したファイル: <a href = "kazuate.html" target = _blank>kazuate.html</a></p>
-                <li><h4>課題5-2</h4></li>
-                    <p>project.html に検索用の input 要素やラベル，ボタンを設置しました。</p>
-                <li><h4>課題5-3</h4></li>
-                    <p>index.html を編集しました。</p>
             </ul>
-            <h3>第６回 Webページ作成演習</h3>
-            <ul>
-
-            </ul>
+        </div>
         </ul>
+        <h2 class="target">工夫点，苦心点，強調点，感想</h2>
+            <div class="zentai">
+                <div class="box">
+                    <div class="box-title">工夫点</div>
+                    <p>なるべく使用する色の種類を少なくし、使用する色の系統を合わせることで見た目がシンプルなページになるようにした。また、回ごとにまとめることで、どこまでがどの回なのかが分かりやすくした。工夫点，苦心点，強調点，感想の部分については、同じデザインのものでひとつひとつまとめることで、同じ部分のものだとわかりやすく、かつ見やすくなるようにした。</p>
+                </div>
+                <div class="box">
+                    <div class="box-title">苦心点</div>
+                    <p>工夫点，苦心点，強調点，感想の部分についてのCSSがなかなかうまくいかず苦戦した。授業についてでは、数当てゲームなどで行ったコンソールに表示にていた文字を画面に表示する部分についてよく理解できていなかったため時間がかかってしまった。</p>
+                </div>
+                <div class="box">
+                    <div class="box-title">強調点</div>
+                    <p>それぞれの部分について、枠で囲って見やすくしているところや、見ていても疲れないような色使い。</p>
+                </div>
+                <div class="box">
+                    <div class="box-title">感想</div>
+                    <p>Web制作の授業を受ける前までは、多くの人のサイトがインターネット上にあることもあり、勝手ながらサイトは誰でも簡単に作れるというイメージがあった。しかし、実際に作ってみると自分にとっては少し難しく感じた。サイトを作りたい人も多いと思うため需要が高いだろうと思ったが、現代のようにいろいろな技術が発達していても、この作成方法が楽に作れるということに驚いた。しかり、自分が想像した通りにうまくいったときや、ボタンを作って、押したときにそれについての動作をするなどのことを自分自身で作れたので楽しかった。</p>
+                </div>
+            </div>
+        <h2 class="target">参考文献</h2>
+        https://saruwakakun.com/html-css/reference/ul-ol-li-design
+        https://jajaaan.co.jp/css/css-headline/
+        https://webukatu.com/wordpress/blog/24957/
+        https://saruwakakun.com/html-css/reference/box
+        https://xn--web-oi9du9bc8tgu2a.com/wp/css-basis-flex/
     </body>
 </html>
