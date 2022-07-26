@@ -5,7 +5,6 @@
     <title>天気</title>
     <link rel="stylesheet" href="project.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
-	  <script src="ajax-demo.js" defer></script>
     <script src="weather.js" defer></script>
     
   </head>
@@ -29,14 +28,16 @@
           <option value="5368361">ロサンゼルス(アメリカ合衆国)</option>
         </select>
         <button id = "sendRequest">検索</button>
-        <p><span id = "name"></span></p>
-        <p><span id = "weather_description"></span></p>
-        <p><span id = "temp_max"></span></p>
-        <p><span id = "temp_min"></span></p>
-        <p><span id = "humidity"></span></p>
-        <p><span id = "wind_speed"></span></p>
-        <p><span id = "wind_deg"></span></p>
-        <p><span id = "coord_lon"></span></p>
-        <p><span id = "coord_lat"></span></p>
+        <div class="haikei" id="box">
+          <p><span id = "name"></span></p>
+          <p><span id = "weather_description"></span></p>
+          <p><span id = "temp_max"></span></p>
+          <p><span id = "temp_min"></span></p>
+          <p><span id = "humidity"></span></p>
+          <p><span id = "wind_speed"></span></p>
+          <p><span id = "wind_deg"></span></p>
+          <p><span id = "coord_lon"></span></p>
+          <p><span id = "coord_lat"></span></p>
+        </div>
   </body>
 </html>

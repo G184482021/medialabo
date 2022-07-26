@@ -55,17 +55,33 @@ b.addEventListener('click', sendRequest);
 
 function sendRequest() {
   let id = document.getElementById("town-select").value;
+  if(id==='360630'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "blue";
+  }
+  if(id==='524901' || id==='3451189' || id==='5128581'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "red";
+  }
+  if(id==='993800' || id==='5368361'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "black";
+  }
+  if(id==='1816670' || id==='1850147' || id==='1880252' || id==='2643743'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "green";
+  }
+  if(id==='2147714'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "pink";
+  }
+  if(id==='2968815'){
+    irobako = document.getElementById("box");
+    irobako.style.backgroundColor = "yellow";
+  }
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + id +'.json';
   
-  body{
-    if(id === 1850147){
-      margin: 0;
-      width: 100vw;
-      height: 100vh;
-      background-image:url
-      }
-  }
-
+  
 
 	axios.get(url)
 		.then(showResult)
@@ -94,13 +110,7 @@ function showResult(resp) {
   pclo.textContent = '緯度：' + data.coord.lon;
   pcla.textContent = '経度：' + data.coord.lat;
 
-
-  if(id === 1850147){
-    let img = document.getElementById("https://freesozai.jp/sozai/nation_flag/ntf_131.svg");
-    img.src = "image1.jpg";
-  }
-
-
+  
 
 
 	if (typeof data === 'string') {

@@ -1,12 +1,16 @@
-a:link {
-    color: blue;
-}
-a:visited {
-    color: purple;
-}
-a:hover {
-    text-decoration: none;
-}
 body {
     text-align: center;
 }
+p {
+    color: rgb(0, 0, 170);
+}
+.haikei {
+    border:1px white;
+    border-radius:1em;
+}
+/*.haikei {
+    border: solid 1px black;
+    width:100px;
+    height:50px;
+    background-color:white;
+}*/
