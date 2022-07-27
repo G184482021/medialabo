@@ -57,27 +57,27 @@ function sendRequest() {
   let id = document.getElementById("town-select").value;
   if(id==='360630'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "blue";
+    irobako.style.backgroundColor = "rgb(255, 68, 0)";
   }
   if(id==='524901' || id==='3451189' || id==='5128581'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "red";
+    irobako.style.backgroundColor = "rgb(92, 88, 88)";
   }
   if(id==='993800' || id==='5368361'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "black";
+    irobako.style.backgroundColor = "rgb(126, 187, 173)";
   }
   if(id==='1816670' || id==='1850147' || id==='1880252' || id==='2643743'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "green";
+    irobako.style.backgroundColor = "rgb(161, 161, 161)";
   }
   if(id==='2147714'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "pink";
+    irobako.style.backgroundColor = "rgb(105, 196, 215)";
   }
   if(id==='2968815'){
     irobako = document.getElementById("box");
-    irobako.style.backgroundColor = "yellow";
+    irobako.style.backgroundColor = "rgb(127, 155, 161)";
   }
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + id +'.json';
   

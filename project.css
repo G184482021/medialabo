@@ -2,15 +2,17 @@ body {
     text-align: center;
 }
 p {
-    color: rgb(0, 0, 170);
+    color: black;
 }
 .haikei {
     border:1px white;
     border-radius:1em;
+    margin: 0px 500px 0px;
 }
-/*.haikei {
-    border: solid 1px black;
-    width:100px;
-    height:50px;
-    background-color:white;
-}*/
+body {
+    background-image: url("https://www.iconclip.com/www/wp-content/uploads/2016/05/weather-featured-710x580.png");
+    background-size: 25%;
+}
+#town-select option:nth-child(2n+1){
+    background:rgb(231, 230, 230);
+}
