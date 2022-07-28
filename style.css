@@ -95,37 +95,3 @@ a:hover::after{
 a:active{
     color : purple;
 }
-
-/*flex-basis: auto;*/
-
-/*
-<div class="box2">
-                    <div class="box-title">工夫点</div>
-                </div>
-                <div class="box2">
-                    <div class="box-title">苦心点</div>
-                </div>
-                <div class="box2">
-                    <div class="box-title">協調点</div> 
-                </div>
-                <div class="box2">
-                    <div class="box-title">感想</div>
-                </div>
-
-
-
-                <p>kakkakdjkhfhfhksfjhsfjhfjhsjkfhjsfhskfjshfsfhshfhskjfhkf</p>
-
-a:link {
-    color: rgb(56, 56, 243);
-}
-a:visited {
-    color: purple;
-}
-a:hover {
-    text-decoration: none;
-}
-
-
-
-                */
